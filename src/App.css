@@ -1,0 +1,129 @@
+body{
+
+  background-image:linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("./texture10.jpg");
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+#ques{
+  text-align:unset !important;
+}
+
+.radios{
+padding: auto;
+margin:10px 10px;
+display: inline-block !important;
+width:150px;
+
+}
+
+.win{
+  padding-left: 250px;
+}
+
+.loss{
+  padding-left: 280px;
+}
+
+
+.mode{
+  text-align: center;
+}
+
+.card-body{text-align: start !important; }
+
+.card{
+  margin-top: 20px;
+  margin-left: 35px;
+ 
+  height: auto;
+  box-shadow:  0 0 10px #fff;
+}
+
+.alerts{
+  margin:50px 0px 50px 60px ;
+}
+
+.btnMe{
+    margin-left: 10px;
+    position: absolute;
+    top:110%;
+}
+
+ .prev {
+ 
+  left:15%;
+
+
+}
+
+.next{
+  left:80%;
+}
+
+.frame{
+  width:800px;
+  height: 100%;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+
+.questionFrame{
+  width:600px;
+  height: auto;
+  position: relative;
+  margin: 100px auto;
+}
+
+.questions{
+  width:600px;
+  height: 150px;
+
+  border:1px solid gray;
+  margin: 100px auto;
+
+}
+
+
+
+.choices{
+
+  margin:50px auto;
+
+  
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
